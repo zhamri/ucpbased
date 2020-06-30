@@ -1,0 +1,17 @@
+.idea/
+.settings/
+bin/
+target/
+*.iml
+.classpath
+.project
+.DS_Store
+*.ipr
+*.iws
+
+dependency-reduced-pom.xml
+.factorypath
+.vscode/settings.json
+
+*.txt
+*.ser
