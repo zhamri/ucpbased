@@ -31,7 +31,7 @@ public final class UCP {
     private double PF;
 
     /**
-     * Creating new objects.
+     * This constructor if for creating new objects.
      */
     public UCP() {
         managerUseCaseWeight = new UnadjustedUseCaseWeight();
