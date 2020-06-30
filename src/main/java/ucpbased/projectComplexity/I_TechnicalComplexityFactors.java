@@ -8,7 +8,7 @@ public interface I_TechnicalComplexityFactors {
     /**
      * Abstract method to calculate TCF
      *
-     * @return
+     * @return Technical Complexity Factors
      */
     public double calculateTCF();
 }

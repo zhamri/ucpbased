@@ -10,7 +10,7 @@ public class UnadjustedUseCaseWeight implements I_UseCaseWeight {
     /**
      * To set Strategy
      *
-     * @param strategy
+     * @param strategy for use case weight
      */
     public void setStrategy(I_UseCaseWeight strategy) {
         this.strategy = strategy;
@@ -19,7 +19,7 @@ public class UnadjustedUseCaseWeight implements I_UseCaseWeight {
     /**
      * To calculate UUCW
      *
-     * @return
+     * @return unadjusted use case weight
      */
     @Override
     public double calculateUUCW() {

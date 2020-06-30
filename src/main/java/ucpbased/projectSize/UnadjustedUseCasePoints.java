@@ -8,9 +8,9 @@ public class UnadjustedUseCasePoints {
     /**
      * To calculate UUCP
      *
-     * @param uucw
-     * @param uaw
-     * @return
+     * @param uucw unadjusted use case weight
+     * @param uaw unadjusted actor weight
+     * @return unadjusted use case points
      */
     public double calculateUUCP(double uucw, double uaw) {
         return uucw + uaw;

@@ -20,9 +20,9 @@ public class UCP_UUCW implements I_UseCaseWeight {
     /**
      * Constructor of UCP_UUCW
      *
-     * @param u1_Assessment
-     * @param u2_Assessment
-     * @param u3_Assessment
+     * @param u1_Assessment simple
+     * @param u2_Assessment average
+     * @param u3_Assessment complex
      */
     public UCP_UUCW(int u1_Assessment, int u2_Assessment, int u3_Assessment) {
         this.U1_Assessment = u1_Assessment;
@@ -33,7 +33,7 @@ public class UCP_UUCW implements I_UseCaseWeight {
     /**
      * To calculate UUCW
      *
-     * @return
+     * @return unadjusted use case weight
      */
     public double calculateUUCW() {
         Total_U1 = U1_Weight * U1_Assessment;

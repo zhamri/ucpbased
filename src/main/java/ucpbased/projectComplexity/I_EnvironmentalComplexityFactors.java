@@ -8,7 +8,7 @@ public interface I_EnvironmentalComplexityFactors {
     /**
      * Abstract method to calculate ECF
      *
-     * @return
+     * @return Environmental Complexity Factors
      */
     public double calculateECF();
 }

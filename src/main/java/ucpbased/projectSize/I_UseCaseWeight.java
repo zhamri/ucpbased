@@ -8,7 +8,7 @@ public interface I_UseCaseWeight {
     /**
      * Abstract method to calculate UUCW
      *
-     * @return
+     * @return unadjusted use case weight
      */
     public double calculateUUCW();
 }

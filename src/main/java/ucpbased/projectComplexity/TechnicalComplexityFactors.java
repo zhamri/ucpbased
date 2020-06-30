@@ -10,7 +10,7 @@ public class TechnicalComplexityFactors implements I_TechnicalComplexityFactors 
     /**
      * To set strategy
      *
-     * @param strategy
+     * @param strategy for Technical Complexity Factors
      */
     public void setStrategy(I_TechnicalComplexityFactors strategy) {
         this.strategy = strategy;
@@ -19,7 +19,7 @@ public class TechnicalComplexityFactors implements I_TechnicalComplexityFactors 
     /**
      * To calculate TCF
      *
-     * @return
+     * @return Technical Complexity Factors
      */
     @Override
     public double calculateTCF() {

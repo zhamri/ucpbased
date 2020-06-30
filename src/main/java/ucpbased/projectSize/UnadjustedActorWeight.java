@@ -10,7 +10,7 @@ public class UnadjustedActorWeight implements I_ActorWeight {
     /**
      * To set strategy
      *
-     * @param strategy
+     * @param strategy for actor weight
      */
     public void setStrategy(I_ActorWeight strategy) {
         this.strategy = strategy;
@@ -19,7 +19,7 @@ public class UnadjustedActorWeight implements I_ActorWeight {
     /**
      * To calculate UAW
      *
-     * @return
+     * @return unadjusted actor weight
      */
     @Override
     public double calculateUAW() {

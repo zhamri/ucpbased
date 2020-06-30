@@ -10,7 +10,7 @@ public class EnvironmentalComplexityFactors implements I_EnvironmentalComplexity
     /**
      * To set strategy
      *
-     * @param strategy
+     * @param strategy Environmental Complexity Factors
      */
     public void setStrategy(I_EnvironmentalComplexityFactors strategy) {
         this.strategy = strategy;
@@ -19,7 +19,7 @@ public class EnvironmentalComplexityFactors implements I_EnvironmentalComplexity
     /**
      * To calculate ECF
      *
-     * @return
+     * @return Environmental Complexity Factors
      */
     @Override
     public double calculateECF() {

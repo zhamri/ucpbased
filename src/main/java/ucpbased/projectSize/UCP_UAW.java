@@ -20,9 +20,9 @@ public class UCP_UAW implements I_ActorWeight {
     /**
      * Constructor of UCP_UAW
      *
-     * @param a1_Assessment
-     * @param a2_Assessment
-     * @param a3_Assessment
+     * @param a1_Assessment simple
+     * @param a2_Assessment average
+     * @param a3_Assessment complex
      */
     public UCP_UAW(int a1_Assessment, int a2_Assessment, int a3_Assessment) {
         this.A1_Assessment = a1_Assessment;
@@ -33,7 +33,7 @@ public class UCP_UAW implements I_ActorWeight {
     /**
      * To calculate UAW
      *
-     * @return
+     * @return unadjusted actor weight
      */
     public double calculateUAW() {
         Total_A1 = A1_Weight * A1_Assessment;

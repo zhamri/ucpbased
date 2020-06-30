@@ -50,19 +50,19 @@ public class UCP_TFactor implements I_TechnicalComplexityFactors {
     /**
      * Constructor of UCP_TFactor
      *
-     * @param t1_Assessment
-     * @param t2_Assessment
-     * @param t3_Assessment
-     * @param t4_Assessment
-     * @param t5_Assessment
-     * @param t6_Assessment
-     * @param t7_Assessment
-     * @param t8_Assessment
-     * @param t9_Assessment
-     * @param t10_Assessment
-     * @param t11_Assessment
-     * @param t12_Assessment
-     * @param t13_Assessment
+     * @param t1_Assessment  Distributed system required.
+     * @param t2_Assessment  Response time is important.
+     * @param t3_Assessment  End-user efficiency.
+     * @param t4_Assessment  Complex internal processing required.
+     * @param t5_Assessment  Reusable code must be a focus.
+     * @param t6_Assessment  Easy to install.
+     * @param t7_Assessment  Easy to use.
+     * @param t8_Assessment  Cross-platform support.
+     * @param t9_Assessment  Easy to change.
+     * @param t10_Assessment Highly concurrent.
+     * @param t11_Assessment Custom security.
+     * @param t12_Assessment Dependence on third-party code.
+     * @param t13_Assessment User training.
      */
     public UCP_TFactor(int t1_Assessment, int t2_Assessment, int t3_Assessment, int t4_Assessment, int t5_Assessment,
                        int t6_Assessment, int t7_Assessment, int t8_Assessment, int t9_Assessment, int t10_Assessment,
@@ -85,7 +85,7 @@ public class UCP_TFactor implements I_TechnicalComplexityFactors {
     /**
      * To calculate TFactor
      *
-     * @return
+     * @return tFactor
      */
     private double calculateTFactor() {
         T1 = T1_Weight * T1_Assessment;
@@ -108,7 +108,7 @@ public class UCP_TFactor implements I_TechnicalComplexityFactors {
     /**
      * To calculate TCF
      *
-     * @return
+     * @return technical complexity factors
      */
     public double calculateTCF() {
         double TFactor = calculateTFactor();

@@ -35,14 +35,14 @@ public class UCP_EFactor implements I_EnvironmentalComplexityFactors {
     /**
      * Constructor of UCP_EFactor
      *
-     * @param e1_Assessment
-     * @param e2_Assessment
-     * @param e3_Assessment
-     * @param e4_Assessment
-     * @param e5_Assessment
-     * @param e6_Assessment
-     * @param e7_Assessment
-     * @param e8_Assessment
+     * @param e1_Assessment Familiarity with the project.
+     * @param e2_Assessment Application experience.
+     * @param e3_Assessment Object-oriented programming experience.
+     * @param e4_Assessment Lead analyst capability.
+     * @param e5_Assessment Motivation.
+     * @param e6_Assessment Stable requirements.
+     * @param e7_Assessment Part-time staff.
+     * @param e8_Assessment Difficult programming language.
      */
     public UCP_EFactor(int e1_Assessment, int e2_Assessment, int e3_Assessment, int e4_Assessment, int e5_Assessment,
                        int e6_Assessment, int e7_Assessment, int e8_Assessment) {
@@ -77,7 +77,7 @@ public class UCP_EFactor implements I_EnvironmentalComplexityFactors {
     /**
      * To calculate ECF
      *
-     * @return
+     * @return environmental complexity factors
      */
     public double calculateECF() {
         double EFactor = calculateEFactor();
