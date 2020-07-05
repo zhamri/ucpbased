@@ -17,7 +17,7 @@ the expected output.
     <dependency>
       <groupId>my.zhamri.ucpbased</groupId>
       <artifactId>ucpbased</artifactId>
-      <version>0.1.3</version>
+      <version>0.1.4</version>
     </dependency>
   </dependencies>
 ```
