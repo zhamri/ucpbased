@@ -3,7 +3,7 @@ Currently, we are doing research on Software Effort Estimation and one of the ou
 Below is the required information for setting the Maven `pom.xml`, the example on how to implement `ucpbased` and 
 the expected output.
 
-### Setting Maven pom.xml:
+### Setting Maven pom.xml: `OLD`
 
 ```xml
   <repositories>
@@ -19,6 +19,25 @@ the expected output.
       <artifactId>ucpbased</artifactId>
       <version>0.1.5</version>
     </dependency>
+  </dependencies>
+```
+
+### Setting Maven pom.xml: `NEW`
+
+```xml
+  <repositories>
+      <repository>
+          <id>jitpack.io</id>
+          <url>https://jitpack.io</url>
+      </repository>
+  </repositories>
+
+  <dependencies>
+      <dependency>
+          <groupId>com.github.zhamri</groupId>
+          <artifactId>ucpbased</artifactId>
+          <version>0.1.5</version>
+      </dependency>
   </dependencies>
 ```
 
