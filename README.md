@@ -75,7 +75,7 @@ You may use this link to verify the output: http://ext-ucp.appspot.com
 3. Ani, Z. C., Basri, S., and Sarlan, A. (2015). [Validating reusability of software projects using object-oriented design metrics](https://www.scopus.com/record/display.uri?eid=2-s2.0-84923174507&doi=10.1007%2f978-3-662-46578-3_100&origin=inward&txGid=4a828fd343a2f60ee944fe334d694ebf). In Information Science and Applications, pages 845–850. Springer
 4. Ani, Z., Basri, S., and Sarlan, A. (2017). [A reusability assessment of ucp-based effort estimation framework using object-oriented approach](https://jtec.utem.edu.my/jtec/article/view/2971). Journal of Telecommunication, Electronic and Computer Engineering, 9(3-5):111–114
 5. Ani, Z. C., Basri, S., and Sarlan, A. (2018a). A framework for designing ucp-based effort estimation. Advanced Science Letters, 24(2):995–998
-6. Ani, Z. C., Basri, S., Sarlan, A., Hashim, N. L., and Harun, H. (2018b). Evaluating the quality of ucp-based framework using ck metrics. International Journal of Advanced Computer Science and Applications, 9(11):624–631
+6. Ani, Z. C., Basri, S., Sarlan, A., Hashim, N. L., and Harun, H. (2018b). [Evaluating the quality of ucp-based framework using ck metrics](https://thesai.org/Publications/ViewPaper?Volume=9&Issue=11&Code=IJACSA&SerialNo=88). International Journal of Advanced Computer Science and Applications, 9(11):624–631
 
 ## Verification Form
 [Click here to give feedback.](https://bit.ly/ucpbased-survey)
