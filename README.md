@@ -70,7 +70,7 @@ You may use this link to verify the output: http://ext-ucp.appspot.com
 
 ## Related Publications:
 
-1. Ani, Z. C. and Basri, S. (2013a). A case study of effort estimation in agile software development using use case points. Sci.Int.(Lahore), 25(4):1111–1115
+1. Ani, Z. C. and Basri, S. (2013a). [A case study of effort estimation in agile software development using use case points](https://go.gale.com/ps/i.do?id=GALE%7CA362017062&sid=googleScholar&v=2.1&it=r&linkaccess=abs&issn=10135316&p=AONE&sw=w&userGroupName=anon%7Ee281ccb0). Sci.Int.(Lahore), 25(4):1111–1115
 2. Ani, Z. C. and Basri, S. (2013b). [A web-based tool support for automating software effort estimation](https://www.semanticscholar.org/paper/A-Web-Based-Tool-Support-for-Automating-Software-Ani-Basri/76f55136374f5bfbcf95dc9115f04cb07251e2bb?p2df). In Information Systems International Conference (ISICO), Bali, Indonesia
 3. Ani, Z. C., Basri, S., and Sarlan, A. (2015). [Validating reusability of software projects using object-oriented design metrics](https://www.scopus.com/record/display.uri?eid=2-s2.0-84923174507&doi=10.1007%2f978-3-662-46578-3_100&origin=inward&txGid=4a828fd343a2f60ee944fe334d694ebf). In Information Science and Applications, pages 845–850. Springer
 4. Ani, Z., Basri, S., and Sarlan, A. (2017). [A reusability assessment of ucp-based effort estimation framework using object-oriented approach](https://jtec.utem.edu.my/jtec/article/view/2971). Journal of Telecommunication, Electronic and Computer Engineering, 9(3-5):111–114
